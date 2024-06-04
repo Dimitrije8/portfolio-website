@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/logo.png" />
+    <title>Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <script defer="" src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  </head>
+  <body>
+    <section class="main">
+      <!------------------  HEADER SECTION  --------------- -->
+      <div class="header-section">
+        <nav class="main-nav">
+          <div class="logo-container">
+            <img class="logo" src="images/logo.png" alt="logo" />
+            <!-- <p class="name">D.P</p> -->
+          </div>
+          <ul class="main-nav-list">
+            <li><a class="main-nav-link" href="#home">Home</a></li>
+            <li><a class="main-nav-link" href="#about">About</a></li>
+            <li><a class="main-nav-link" href="#resume">Resume</a></li>
+            <li><a class="main-nav-link" href="#portfolio">Portfolio</a></li>
+          </ul>
+          <button class="btn btn-contact">
+            Contact Me <img src="images/arrow-white.png" />
+          </button>
+          <button class="menu-icon">
+            <img src="images/icons8-menu-48.png" alt="Menu Icon" />
+          </button>
+          <button class="close-icon">
+            <img src="images/icons8-close-48.png" alt="Close Icon" />
+          </button>
+        </nav>
+        <div class="mobile-nav">
+          <div class="mobile-nav-box">
+            <button class="btn btn-contact-mob">
+              Contact Me <img src="images/arrow-white.png" />
+            </button>
+            <ul class="main-nav-list-mob">
+              <li><a class="main-nav-link-mob" href="#home">Home</a></li>
+              <li><a class="main-nav-link-mob" href="#about">About</a></li>
+              <li><a class="main-nav-link-mob" href="#resume">Resume</a></li>
+              <li>
+                <a class="main-nav-link-mob" href="#portfolio">Portfolio</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!------------------  HERO SECTION  --------------- -->
+      <div class="hero-section">
+        <div class="hero-container">
+          <div class="hero-box-heading-b">
+            <div class="hero-box">
+              <h1 class="hero-heading">Dimitrije Petrovic</h1>
+              <p class="hero-text">Niš, Serbia</p>
+            </div>
+            <div class="btn-a available">
+              <img src="images/circle.png" />
+              <p class="btn-text">AVAILABLE</p>
+            </div>
+          </div>
+          <div class="hero-box-1">
+            <h2 class="hero-heading-1">I'm a front-end developer</h2>
+            <p class="hero-text-1">
+              I want to make things that make <span>the difference.</span>
+            </p>
+            <button class="btn btn-contact-down">
+              Download CV <img src="images/arrow-white.png" />
+            </button>
+          </div>
+          <div class="image-portfolio">
+            <img src="images/dimitrije.png" alt="Dimitrije image" />
+          </div>
+        </div>
+        <!-- <div class="hero-container-1">
+          <div class="btn-a available">
+            <img src="images/circle.png" />
+            <p class="btn-text">AVAILABLE</p>
+          </div>
+        </div> -->
+      </div>
+      <!------------------  ABOUT SECTION  --------------- -->
+      <div id="about" class="about-section hidden">
+        <div class="about-container">
+          <h2 class="about-heading">About</h2>
+          <p class="about-text">
+            I am an ambitious and curious Frontend developer from Niš, 23 years
+            old, who has the desire to improve professionally and contribute to
+            the development of web applications. Although I am at the beginning
+            of my career, my passion for web development and dedication to
+            learning make me a reliable candidate for any team atmosphere. With
+            knowledge of HTML, CSS and JavaScript, as well as knowledge of
+            popular frameworks such as React and Vue, I strive to develop modern
+            and user-oriented interfaces.I am ready to join a team that values
+            ​​dedication, teamwork and continuous learning. I am motivated to
+            continue my professional development and contribute to the success
+            of the projects I work on.
+          </p>
+        </div>
+      </div>
+      <!------------------  SKILLS SECTION  --------------- -->
+      <div class="skills-section hidden">
+        <div class="skills-container">
+          <h2 class="skills-heading">Skills</h2>
+          <div class="skills-container-1">
+            <div class="main-box">
+              <ul class="main-nav-list-a">
+                <li><a class="main-nav-link-a">UI Design</a></li>
+                <li><a class="main-nav-link-a">JavaScript</a></li>
+                <li><a class="main-nav-link-a">Git</a></li>
+              </ul>
+            </div>
+            <div class="main-box">
+              <ul class="main-nav-list-a">
+                <li><a class="main-nav-link-a">HTML5</a></li>
+                <li><a class="main-nav-link-a">React</a></li>
+                <li><a class="main-nav-link-a">Responsive Design</a></li>
+              </ul>
+            </div>
+            <div class="main-box">
+              <ul class="main-nav-list-a">
+                <li><a class="main-nav-link-a">CSS3</a></li>
+                <li><a class="main-nav-link-a">Performance Optimization</a></li>
+                <li><a class="main-nav-link-a">Testing</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------  EDUCATION SECTION  --------------- -->
+      <div id="resume" class="education-section hidden">
+        <div class="education-container">
+          <h2 class="educ-heading">Education</h2>
+          <div class="educ-box">
+            <div class="educ-box-1">
+              <div class="wrapper">
+                <div class="img-box">
+                  <img
+                    src="images/NikolaTesla.png"
+                    alt="Nikola Tesla logo skole"
+                  />
+                </div>
+                <div class="educ-cont">
+                  <div class="educ-cont-1">
+                    <div class="educ-wrap">
+                      <h2 class="educ-heading-1">Computer technician</h2>
+                      <div class="country-box">
+                        <div class="contry-box-1">
+                          <p class="country">Serbia</p>
+                          <ul class="school-list">
+                            <li class="school-heading">
+                              Electrical Engineering School "Nikola Tesla" Niš
+                            </li>
+                          </ul>
+                        </div>
+
+                        <span>2015 - 2019</span>
+                      </div>
+                    </div>
+                    <p class="educ-text">
+                      The aim of professional education for the qualification of
+                      computer electrician is to train a person to install
+                      computer systems, monitor, upgrade and maintain computer
+                      systems and create systems with a microcontroller or a
+                      microcomputer.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-d"></div>
+            <div class="educ-box-1">
+              <div class="wrapper">
+                <div class="img-box">
+                  <img
+                    src="images/Konstantin.png"
+                    alt="Konstantin Veliki logo skole"
+                  />
+                </div>
+                <div class="educ-cont">
+                  <div class="educ-cont-1">
+                    <div class="educ-wrap">
+                      <h2 class="educ-heading-1">Management</h2>
+                      <div class="country-box">
+                        <div class="contry-box-1">
+                          <p class="country">Serbia</p>
+                          <ul class="school-list">
+                            <li class="school-heading">
+                              Faculty "CONSTANTINE THE GREAT" - Niš
+                            </li>
+                          </ul>
+                        </div>
+                        <span>2019 - 2024</span>
+                      </div>
+                    </div>
+                    <p class="educ-text">
+                      The study program aims to train students for management
+                      positions in various security sectors, including state
+                      authorities, private companies and local governments. The
+                      program provides them with theoretical and practical
+                      knowledge in the field of security management, using a
+                      wide range of scientific bases and methods.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------  COURSES SECTION  --------------- -->
+      <div class="courses-section hidden">
+        <div class="courses-container">
+          <h2 class="courses-heading">Courses and Sertifications</h2>
+          <div class="courses-box">
+            <div class="courses-box-1">
+              <div class="courses-wrapper">
+                <div class="courses-wrapper-1">
+                  <div class="courses-box-img">
+                    <img src="images/it.png" alt="IT logo skole" />
+                  </div>
+                  <div class="courses-cont">
+                    <div class="courses-cont-1">
+                      <div class="courses-wrap">
+                        <h2 class="courses-heading-1">
+                          Frontend JavaScript Development
+                        </h2>
+
+                        <div class="country-box">
+                          <div class="country-box-1">
+                            <p class="country">Online</p>
+                            <ul class="school-list">
+                              <li class="school-heading">
+                                ITAcademy by LINK group
+                              </li>
+                            </ul>
+                            <ul class="school-list">
+                              <li class="country">Certificate No: 030465</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="credential-box">
+                        <a
+                          href="https://www.link-group.eu/certificate/"
+                          target="_blank"
+                        >
+                          <p class="courses-text">Show Credential</p>
+                        </a>
+                        <img
+                          class="arr"
+                          src="images/icons8-up-right-32.png"
+                          alt="arrow"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span>2023 - 2024</span>
+              </div>
+            </div>
+            <div class="courses-box-1">
+              <div class="courses-wrapper">
+                <div class="courses-wrapper-1">
+                  <div class="courses-box-img">
+                    <img src="images/udemy2.png" alt="Udemy logo " />
+                  </div>
+                  <div class="courses-cont">
+                    <div class="courses-cont-1">
+                      <div class="courses-wrap">
+                        <h2 class="courses-heading-1">
+                          Build Responsive Real-World Websites with HTML and CSS
+                        </h2>
+                        <div class="country-box">
+                          <div class="contry-box-1">
+                            <p class="country">Online</p>
+                            <ul class="school-list">
+                              <li class="school-heading">Udemy</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="credential-box">
+                        <a
+                          href="https://www.udemy.com/certificate/UC-0e6ec321-6451-443f-9d68-950bafb56701/"
+                          target="_blank"
+                        >
+                          <p class="courses-text">Show Credential</p>
+                        </a>
+                        <img
+                          class="arr"
+                          src="images/icons8-up-right-32.png"
+                          alt="arrow"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span>January 2024 </span>
+              </div>
+            </div>
+            <div class="courses-box-1">
+              <div class="courses-wrapper">
+                <div class="courses-wrapper-1">
+                  <div class="courses-box-img">
+                    <img src="images/udemy2.png" alt="Udemy logo " />
+                  </div>
+                  <div class="courses-cont">
+                    <div class="courses-cont-1">
+                      <div class="courses-wrap">
+                        <h2 class="courses-heading-1">
+                          The Complete JavaScript Course 2024: From Zero to
+                          Expert!
+                        </h2>
+                        <div class="country-box">
+                          <div class="contry-box-1">
+                            <p class="country">Online</p>
+                            <ul class="school-list">
+                              <li class="school-heading">Udemy</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="credential-box">
+                        <a href="#">
+                          <p class="courses-text">Show Credential</p>
+                        </a>
+                        <img
+                          class="arr"
+                          src="images/icons8-up-right-32.png"
+                          alt="arrow"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span>November 2024</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------  PORTFOLIO SECTION  --------------- -->
+      <div id="portfolio" class="portfolio-section">
+        <div class="portfolio-container">
+          <h2 class="portfolio-heading">Portfolio</h2>
+          <div class="portfolio-grid">
+            <a href="./portfolio-items-container/card-coffe/index.html">
+              <div class="portfolio-items coffe" data-category="show">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">Coffe Shop</h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="./portfolio-items-container/card-omni/index.html">
+              <div class="portfolio-items omni" data-category="show">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">Omnifood Shop</h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="./portfolio-items-container/card-component/index.html">
+              <div class="portfolio-items card" data-category="show">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">
+                    Product preview card component
+                  </h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="./portfolio-items-container/card-recipe/index.html">
+              <div class="portfolio-items recipe">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">Recipe page</h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="./portfolio-items-container/card-agency/index.html">
+              <div class="portfolio-items agency">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">
+                    Sunnyside agency landing page
+                  </h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="./portfolio-items-container/card-landingpage/index.html">
+              <div class="portfolio-items clipboard">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">Clipboard-landing-page</h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+            <a href="./portfolio-items-container/card-fylo/index.html">
+              <div class="portfolio-items fylo">
+                <div class="port-box">
+                  <h3 class="portfolio-heading-text">
+                    Fylo-dark-theme-landing-page
+                  </h3>
+                </div>
+                <div class="port-box-1">
+                  <button class="cta">
+                    Case <img src="images/right-arrow.png" />
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="btn-s-box">
+            <button class="btn-s" data-state="more" onclick="togglePortfolio()">
+              More <img src="images/arrow-white.png" />
+            </button>
+            <button
+              class="btn-s hide-btn"
+              style="display: none"
+              onclick="togglePortfolio()"
+            >
+              Hide
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!----------------- CONTACT SECTION  --------------- -->
+      <div class="contact-section hidden">
+        <div class="contact-container">
+          <div class="contact-wrapper">
+            <div class="contact-wrapper-heading">
+              <div class="heading-box">
+                <h1 class="contact-heading">
+                  Contact with me to sizzle your project.
+                </h1>
+              </div>
+              <div class="p-box">
+                <p class="contact-text">
+                  Great designs, new generation ideas, user-centered projects.
+                  Let's work together now!
+                </p>
+              </div>
+            </div>
+
+            <form id="contact-form" class="myfrom-box">
+              <!-- name -->
+              <div class="form-box">
+                <input type="text" placeholder="Name" id="name" required />
+                <!-- email -->
+                <input type="email" placeholder="Email" id="email" required />
+              </div>
+              <!-- subject -->
+              <input type="text" placeholder="subject" id="subject" required />
+              <textarea
+                placeholder="Message"
+                rows="6"
+                id="message"
+                required
+              ></textarea>
+              <!-- Change button type from submit to button -->
+              <!--  onclick="sendMail()" -->
+              <button
+                type="button"
+                value="Send"
+                class="btn-c btn-primary"
+                onclick="validateAndSend()"
+              >
+                Submit
+              </button>
+              <div id="success-message" class="success-message">
+                Email Sent Successfully!
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!----------------- FOOTER SECTION  --------------- -->
+      <div class="footer-section">
+        <nav class="footer-nav">
+          <div class="logo-container">
+            <img class="logo" src="images/logo.png" alt="logo" />
+            <div class="line"></div>
+            <p class="footer-text">
+              &copy; 2024 Dimitrije. All Rights Reserved
+            </p>
+          </div>
+          <ul class="footer-nav-list">
+            <a
+              class="footer-nav-link"
+              href="https://github.com/Dimitrije8"
+              target="_blank"
+              ><img src="images/icons8-github-48.png" alt="git-icon"
+            /></a>
+
+            <a class="footer-nav-link" href="#"
+              ><img src="images/icons8-linkedin-48.png" alt="linkedin-icon"
+            /></a>
+
+            <a class="footer-nav-link" href="#about"
+              ><img src="images/icons8-email-48.png" alt="email-icon"
+            /></a>
+
+            <a class="footer-nav-link" href="#portfolio"
+              ><img src="images/icons8-instagram-48.png" alt="instagram-icon"
+            /></a>
+          </ul>
+        </nav>
+      </div>
+    </section>
+  </body>
+</html>

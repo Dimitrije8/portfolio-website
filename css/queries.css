@@ -1,0 +1,1302 @@
+@media screen and (max-width: 1920px) {
+  .mobile-nav {
+    display: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .close-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1344px) {
+  .image-portfolio {
+    display: flex;
+    /* bottom: -362px; */
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -50px;
+    width: 665px;
+    top: -20px;
+    z-index: 0;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .image-portfolio {
+    display: flex;
+    /* bottom: -362px; */
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -50px;
+    width: 665px;
+    top: -20px;
+    z-index: 0;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .image-portfolio {
+    display: flex;
+    /* bottom: -362px; */
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -50px;
+    width: 665px;
+    top: -20px;
+    z-index: 0;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .image-portfolio {
+    display: flex;
+    /* bottom: -362px; */
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -50px;
+    width: 615px;
+    top: -20px;
+    z-index: 0;
+    justify-content: center;
+  }
+  .main {
+    padding: 2.4rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.6rem;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.6rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.6rem;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.6rem;
+  }
+  /*  COURSES  */
+  .courses-section {
+    margin-top: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.6rem;
+  }
+  .portfolio-items {
+    height: 350px;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.6rem;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .mobile-nav-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+  }
+  .main-nav-list-mob {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    list-style: none;
+    gap: 1.8rem;
+  }
+  .main-nav-link-mob {
+    display: block;
+    font-size: 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #1e293b;
+  }
+  .main-nav-link-mob:hover {
+    color: #1e293baf;
+    transition: all 0.5s;
+  }
+  .btn.btn-contact-mob {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  .main-nav-list {
+    display: none;
+  }
+  .btn.btn-contact {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .close-icon {
+    display: none;
+  }
+}
+@media screen and (max-width: 900px) {
+  .image-portfolio {
+    display: flex;
+    /* bottom: -362px; */
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -50px;
+    width: 615px;
+    top: -20px;
+    z-index: 0;
+    justify-content: center;
+  }
+  .main {
+    padding: 2.4rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.6rem;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.6rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.6rem;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.6rem;
+  }
+  /*  COURSES  */
+  .courses-section {
+    margin-top: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.6rem;
+  }
+  .portfolio-items {
+    height: 350px;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.6rem;
+  }
+
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* linear-gradient(
+        rgba(255, 255, 255, 0) 45%,
+        rgb(255, 255, 255) 93.0688%
+      ), */
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 45%,
+        rgb(255, 255, 255) 93.0688%
+      ),
+      url(../images/dimitrije.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: bottom;
+    background-size: 400px;
+    margin-top: 1.2rem;
+    background-color: #ffff;
+  }
+  .image-portfolio img {
+    display: none;
+  }
+  .image-portfolio {
+    display: none;
+    /* bottom: -362px;
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -200px;
+    width: 673px;
+    top: -21px;
+    z-index: 0; */
+  }
+
+  .main {
+    padding: 1.2rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* MOBILE NAV */
+  .menu-icon img,
+  .close-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.2rem;
+    height: 630px;
+  }
+  .hero-container {
+    gap: 36rem;
+  }
+  .hero-text-1 {
+    max-width: 230px;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.2rem;
+  }
+  .about-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.2rem;
+  }
+  .skills-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .skills-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.2rem;
+  }
+  .education-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .educ-heading-1 {
+    font-size: 1.8rem;
+  }
+  .educ-box img {
+    width: 36px;
+    height: 36px;
+  }
+  .educ-wrap {
+    gap: 0.6rem;
+  }
+  .wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .country-box {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: row;
+  }
+
+  .school-heading {
+    font-size: 1.4rem;
+  }
+  /* COURSES */
+  .courses-section {
+    margin-top: 1.2rem;
+  }
+  .courses-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .courses-heading-1 {
+    font-size: 1.8rem;
+  }
+  .courses-box-img img {
+    width: 36px;
+    height: 36px;
+  }
+  img.arr {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .courses-box {
+    gap: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .contry-box-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .courses-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .courses-wrapper-1 {
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 2.5rem;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.2rem;
+  }
+  .portfolio-container {
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .portfolio-items {
+    height: 400px;
+  }
+  /* CONTACT */
+  .contact-section {
+    margin-top: 1.2rem;
+  }
+  .contact-container {
+    padding: 2.4rem;
+  }
+  .contact-heading {
+    font-size: 2.8rem;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.2rem;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 45%,
+        rgb(255, 255, 255) 93.0688%
+      ),
+      url(../images/dimitrije.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: bottom;
+    background-size: 400px;
+    margin-top: 1.2rem;
+    background-color: #ffff;
+  }
+  .image-portfolio img {
+    display: none;
+  }
+  .image-portfolio {
+    display: none;
+    /* bottom: -362px;
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -200px;
+    width: 673px;
+    top: -21px;
+    z-index: 0; */
+  }
+
+  .main {
+    padding: 1.2rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* MOBILE NAV */
+  .menu-icon img,
+  .close-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.2rem;
+    height: 630px;
+  }
+  .hero-container {
+    gap: 36rem;
+  }
+  .hero-text-1 {
+    max-width: 230px;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.2rem;
+  }
+  .about-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.2rem;
+  }
+  .skills-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .skills-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.2rem;
+  }
+  .education-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .educ-heading-1 {
+    font-size: 1.8rem;
+  }
+  .educ-box img {
+    width: 36px;
+    height: 36px;
+  }
+  .educ-wrap {
+    gap: 0.6rem;
+  }
+  .wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .country-box {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+  .school-heading {
+    font-size: 1.4rem;
+  }
+  /* COURSES */
+  .courses-section {
+    margin-top: 1.2rem;
+  }
+  .courses-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .courses-heading-1 {
+    font-size: 1.8rem;
+  }
+  .courses-box-img img {
+    width: 36px;
+    height: 36px;
+  }
+  img.arr {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .courses-box {
+    gap: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+  }
+  .contry-box-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .courses-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .courses-wrapper-1 {
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 2.5rem;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.2rem;
+  }
+  .portfolio-container {
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .portfolio-items {
+    height: 350px;
+  }
+  /* CONTACT */
+  .contact-section {
+    margin-top: 1.2rem;
+  }
+  .contact-container {
+    padding: 2.4rem;
+  }
+  .contact-heading {
+    font-size: 2.8rem;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.2rem;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 45%,
+        rgb(255, 255, 255) 93.0688%
+      ),
+      url(../images/dimitrije.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: bottom;
+    background-size: 400px;
+    margin-top: 1.2rem;
+    background-color: #ffff;
+  }
+  .image-portfolio img {
+    display: none;
+  }
+  .image-portfolio {
+    display: none;
+    /* bottom: -362px;
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -200px;
+    width: 673px;
+    top: -21px;
+    z-index: 0; */
+  }
+
+  .main {
+    padding: 1.2rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* MOBILE NAV */
+  .menu-icon img,
+  .close-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.2rem;
+    height: 630px;
+  }
+  .hero-container {
+    gap: 36rem;
+  }
+  .hero-text-1 {
+    max-width: 230px;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.2rem;
+  }
+  .about-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.2rem;
+  }
+  .skills-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .skills-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.2rem;
+  }
+  .education-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .educ-heading-1 {
+    font-size: 1.8rem;
+  }
+  .educ-box img {
+    width: 36px;
+    height: 36px;
+  }
+  .educ-wrap {
+    gap: 0.6rem;
+  }
+  .wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .country-box {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+  .school-heading {
+    font-size: 1.4rem;
+  }
+  /* COURSES */
+  .courses-section {
+    margin-top: 1.2rem;
+  }
+  .courses-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .courses-heading-1 {
+    font-size: 1.8rem;
+  }
+  .courses-box-img img {
+    width: 36px;
+    height: 36px;
+  }
+  img.arr {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .courses-box {
+    gap: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contry-box-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
+  .courses-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .courses-wrapper-1 {
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 2.5rem;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.2rem;
+  }
+  .portfolio-container {
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .portfolio-items {
+    height: 350px;
+  }
+  /* CONTACT */
+  .contact-section {
+    margin-top: 1.2rem;
+  }
+  .contact-container {
+    padding: 2.4rem;
+  }
+  .contact-heading {
+    font-size: 2.8rem;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.2rem;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 48%,
+        rgb(255, 255, 255) 89.0688%
+      ),
+      url(../images/dimitrije.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: bottom;
+    background-size: 400px;
+    margin-top: 1.2rem;
+    background-color: #ffff;
+  }
+  .image-portfolio img {
+    display: none;
+  }
+  .image-portfolio {
+    display: none;
+    /* bottom: -362px;
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -200px;
+    width: 673px;
+    top: -21px;
+    z-index: 0; */
+  }
+
+  .main {
+    padding: 1.2rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* MOBILE NAV */
+  .menu-icon img,
+  .close-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.2rem;
+    height: 630px;
+  }
+  .hero-container {
+    gap: 29.2rem;
+  }
+  .hero-text-1 {
+    max-width: 230px;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.2rem;
+  }
+  .about-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.2rem;
+  }
+  .skills-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .skills-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.2rem;
+  }
+  .education-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .educ-heading-1 {
+    font-size: 1.8rem;
+  }
+  .educ-box img {
+    width: 36px;
+    height: 36px;
+  }
+  .educ-wrap {
+    gap: 0.6rem;
+  }
+  .wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .country-box {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+  .school-heading {
+    font-size: 1.4rem;
+  }
+  /* COURSES */
+  .courses-section {
+    margin-top: 1.2rem;
+  }
+  .courses-container {
+    max-height: 450px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .courses-heading-1 {
+    font-size: 1.8rem;
+  }
+  .courses-box-img img {
+    width: 36px;
+    height: 36px;
+  }
+  img.arr {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .courses-box {
+    gap: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+  }
+  .contry-box-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .courses-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .courses-wrapper-1 {
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 2.5rem;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.2rem;
+  }
+  .portfolio-container {
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .portfolio-items {
+    height: 350px;
+  }
+  /* CONTACT */
+  .contact-section {
+    margin-top: 1.2rem;
+  }
+  .contact-container {
+    padding: 2.4rem;
+  }
+  .contact-heading {
+    font-size: 2.8rem;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.2rem;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .hero-section {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0) 48%,
+        rgb(255, 255, 255) 89.0688%
+      ),
+      url(../images/dimitrije.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-position: bottom;
+    background-size: 400px;
+    margin-top: 1.2rem;
+    background-color: #ffff;
+  }
+  .image-portfolio img {
+    display: none;
+  }
+  .image-portfolio {
+    display: none;
+    /* bottom: -362px;
+    filter: drop-shadow(rgba(125, 135, 145, 0.25) -47px 13px 38px);
+    flex: 0 0 auto;
+    height: 227%;
+    overflow: visible;
+    position: absolute;
+    right: -200px;
+    width: 673px;
+    top: -21px;
+    z-index: 0; */
+  }
+
+  .main {
+    padding: 1.2rem;
+  }
+  .main-nav {
+    padding: 1.2rem 2rem 1.2rem 2rem;
+  }
+  /* MOBILE NAV */
+  .menu-icon img,
+  .close-icon img {
+    width: 32px;
+    height: 32px;
+  }
+  .logo {
+    width: 42px;
+    height: 42px;
+  }
+  /* HERO */
+  .hero-section {
+    margin-top: 1.2rem;
+    height: 630px;
+  }
+  .hero-container {
+    gap: 29.2rem;
+  }
+  .hero-text-1 {
+    max-width: 230px;
+  }
+  /* ABOUT */
+  .about-section {
+    margin-top: 1.2rem;
+  }
+  .about-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  /* SKILLS */
+  .skills-section {
+    margin-top: 1.2rem;
+  }
+  .skills-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .skills-container-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  /* EDUCATION */
+  .education-section {
+    margin-top: 1.2rem;
+  }
+  .education-container {
+    max-height: 350px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .educ-heading-1 {
+    font-size: 1.8rem;
+  }
+  .educ-box img {
+    width: 36px;
+    height: 36px;
+  }
+  .educ-wrap {
+    gap: 0.6rem;
+  }
+  .wrapper {
+    display: flex;
+    gap: 1.2rem;
+  }
+  .country-box {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: column;
+  }
+  .school-heading {
+    font-size: 1.4rem;
+  }
+  /* COURSES */
+  .courses-section {
+    margin-top: 1.2rem;
+  }
+  .courses-container {
+    max-height: 450px;
+    overflow: auto;
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .courses-heading-1 {
+    font-size: 1.8rem;
+  }
+  .courses-box-img img {
+    width: 36px;
+    height: 36px;
+  }
+  img.arr {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .courses-box {
+    gap: 1.6rem;
+  }
+  .country-box-1 {
+    display: flex;
+  }
+  .contry-box-1 {
+    display: flex;
+    flex-direction: row;
+  }
+  .courses-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+
+  .courses-wrapper-1 {
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 2.5rem;
+  }
+  /* PORTFOLIO */
+  .portfolio-section {
+    margin-top: 1.2rem;
+  }
+  .portfolio-container {
+    padding: 2rem;
+    gap: 1.2rem;
+  }
+  .portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .portfolio-items {
+    height: 320px;
+  }
+  /* CONTACT */
+  .contact-section {
+    margin-top: 1.2rem;
+  }
+  .contact-container {
+    padding: 2.4rem;
+  }
+  .contact-heading {
+    font-size: 2.8rem;
+  }
+  /* FOOTER */
+  .footer-section {
+    margin-top: 1.2rem;
+  }
+  .logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+  }
+  .footer-text {
+    text-align: center;
+  }
+  .footer-nav-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+  }
+}
